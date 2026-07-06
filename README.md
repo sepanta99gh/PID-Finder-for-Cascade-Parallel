@@ -45,8 +45,8 @@ Suggested file structure:
 
 ```text
 .
-├── Cascade_PID_Tuner.m
-├── Parallel_PID_Tuner.m
+├── CascadeFinder.m
+├── ParallelFinder.m
 ├── README.md
 └── results/
 ```
@@ -58,13 +58,13 @@ Suggested file structure:
 3. Run the desired tuner file:
 
 ```matlab
-Cascade_PID_Tuner
+CascadeFinder
 ```
 
 or:
 
 ```matlab
-Parallel_PID_Tuner
+ParallelFinder
 ```
 
 4. The script will search for suitable PID gains and display the final results and plots.
